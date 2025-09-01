@@ -151,7 +151,7 @@ export default function ResumeBuddy() {
 
   useEffect(() => {
     if (!isSignedIn) {
-      router.push("/");
+      router.push("/sign-in");
     }
   }, [isSignedIn, router]);
 
